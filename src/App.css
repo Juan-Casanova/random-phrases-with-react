@@ -1,38 +1,44 @@
-.App {
+#mainContainer {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#containerForm {
+  width: 30%;
+  height: 30%;  
+  border-radius: 10px;
+  background-image: url("https://st.depositphotos.com/1888461/3062/i/950/depositphotos_30624439-stock-photo-light-gray-background-texture.jpg");
+}
+
+#textPhrase {
+  color: Black;
+  width: 80%;
+  margin-left: 10%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#containerButtons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+
+#button1 img {
+  width: 100px;
+  color: black;
+}
+
+#button2 {
+  padding-top: 25px;
+  background-color: black;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  height: 50px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-decoration: none;
+  margin-top: 15px;
 }

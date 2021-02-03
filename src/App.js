@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+
+import Phrase from './components/Phrase';
+import ContainerButtons from './components/ContainersButtons'
+
+//window.onload = alert("jajajajaja");
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="mainContainer">
+      <div id="containerForm">
+        <Phrase/>
+        <ContainerButtons/>
+      </div>
     </div>
   );
 }
